@@ -31,7 +31,7 @@
 				&bl BL_TOG	&bl BL_DEC 		&bl BL_INC 		&trans 		&trans 		&trans 		&trans 		&kp INS		&kp PSCRN 	&kp SLCK 	&kp PAUSE_BREAK		&kp UP 			&trans 		&rgb_ug RGB_TOG
 				&trans 		&kp C_VOL_DN 	&kp C_VOL_UP 	&kp C_MUTE 	&trans 		&trans 		&trans 		&trans 		&kp HOME 	&kp PG_UP 	&kp LEFT 	&kp RIGHT 		&trans
 				&trans 		&trans 			&trans 			&trans 		&trans 		&trans 		&trans 		&trans 		&kp END 	&kp PG_DN 	&kp DOWN 	&trans	&trans
-				&bt BT_PRV 	&trans   		&bt BT_NXT              &trans                            &trans   	&sys_reset 		&bt BT_CLR 	&trans
+				&bt BT_PRV 	&trans   		&bt BT_NXT              &trans                            &sys_reset   	&bootloader 		&bt BT_CLR 	&trans
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
